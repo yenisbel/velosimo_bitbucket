@@ -32,3 +32,14 @@
 • Insert slug and OuthName for new tenant
 
 •Click on the register button and verify that the spa is shown in the in the inserted slug (https://dev.velosimo.io/app/slug inserted)
+
+## Create New Record for Accela
+
+• go to DataIntegration Management App / Settings (https://dev.velosimo.io/integration_management_app~settings) and verify if Setting Data type under namespace exist
+
+<img src="/photos/integrationManagment/integrationDataTypeSettings.png">
+
+• create new record for Data_type Object_type_maps of namespace “Accela Source”
+"http://connect.velosimo.com:3080/AccelaDocument.svc"
+
+<img src="photos/integrationValueRecord">
