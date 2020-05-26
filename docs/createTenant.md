@@ -3,6 +3,7 @@
 ## Create Tenant
 
 • go to https://dev.velosimo.io/account/new
+
 <img src="photos/insertDataFortenant.png">
 
 • Insert Name, Select Owner, adding user for new tenant, select notification level and time zone
@@ -10,6 +11,7 @@
 ## Collections for App
 
 • Import collection Integration Management Collection for the new tenant (https://dev.velosimo.io/collection/pull_import)
+
 <img src="photos/importCollectionForApp.png">
 
 ## Import files for App
