@@ -4,4 +4,4 @@
 
 ## [Import Collection Accela Storage](accelaStorage)
 
-## Import collections Laserfiche
+## Import collections Google Drive

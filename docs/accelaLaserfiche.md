@@ -14,7 +14,7 @@
 
 <img src="photos/importCollectionForApp.png">
 
-- go to **_Integrations Collections_** (https://dev.velosimo.io/collection) and verify under Title **_Laserfiche Storage_** if exist **_laserfiche storage_** name
+- go to **_Integrations Collections_** (https://dev.velosimo.io/collection) and verify under Title **_Laserfiche Storage_** if exist **_laserfiche storage_** name, if it does not exist, it must be created with the values written in the next point
 
 <img src="photos/accelaLaserfiche/collectionsLaserfiche.png">
 
@@ -24,13 +24,42 @@
 
 ### Authorization
 
-- go to **_Security Authorizations OAuth 2.0 AuthorizationsAccela Storage | Accela_** (https://dev.velosimo.io/setup~oauth2_authorization) and check if under namespace **_Laerfiche Storage_** exist the **_laserfiche_** name
+- go to **_Security Authorizations OAuth 2.0 AuthorizationsAccela Storage | Accela_** (https://dev.velosimo.io/setup~oauth2_authorization) and check if under namespace **_Laerfiche Storage_** exist the **_laserfiche_** name , if it does not exist, it must be created with the values written in the next point
 
 <img src="photos/accelaStorage/accelaStorageAuthorization.png">
 
 - go to option **_SecurityAuthorizationsBasic authorizationsLaserfiche Storage | LaserficheEdit _** and verify the current values with this:
 
-> 1.  "namespace": "Laserfiche Storage",
-> 2.  "name": "Laserfiche"
+```
+  "namespace": "Laserfiche Storage",
+  "name": "Laserfiche"
+```
 
 <img src="photos/accelaLaserfiche/laserficheAuthorizationEdit.png">
+
+### Connections
+
+- go to option **_Connectors Connections_** (https://dev.velosimo.io/connection) and check if under namespace **_Laerfiche Storage_** exist the **_connection_** name, if it does not exist, it must be created with the values written in the next point, for this go to **_Connectors Connections New_** (https://dev.velosimo.io/connection/new)
+
+- go to option **_ConnectorsConnectionsAccela Storage | ConnectionEdit_** and verify the current values with this:
+
+```"namespace": "Laserfiche Storage",
+"name": "Connection",
+"authorization_handler": false,
+"url": "http://{{api_url}}/laserfiche/api",
+"authorization":
+"namespace": "Laserfiche Storage",
+"name": "Laserfiche"
+"headers":
+"key": "credentials",
+"value": "{{credentials}}"
+
+"template_parameters":
+"key": "server",
+"value": "http://laserfiche.velosimo.com"
+"key": "repository",
+"value": "velosimo"
+"key": "license"
+"key": "api_url",
+"value": "connect.velosimo.com:3081"
+```

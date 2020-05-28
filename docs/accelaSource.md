@@ -26,17 +26,19 @@
 - create 9 new records for Data*type Object*type_maps of namespace “Accela Source”
   (https://dev.velosimo.io/accela_source~object_type_map) with key and values
 
-> ##### ** Key Value **
->
-> 1.  CAP -> Record
-> 2.  LICENSEPROFESSIONAL -> Professional
-> 3.  TMP_CAP -> Temp Record
-> 4.  PARCEL -> Parcel
-> 5.  INSPECTION -> Inspection
-> 6.  PART -> Part
-> 7.  EVIDENCE -> Evidence
-> 8.  ASSET -> Asset
-> 9.  ASSETCA -> Asset CA
+##### ** Key Value **
+
+```
+ 1.  CAP -> Record
+ 2.  LICENSEPROFESSIONAL -> Professional
+ 3.  TMP_CAP -> Temp Record
+ 4.  PARCEL -> Parcel
+ 5.  INSPECTION -> Inspection
+ 6.  PART -> Part
+ 7.  EVIDENCE -> Evidence
+ 8.  ASSET -> Asset
+ 9.  ASSETCA -> Asset CA
+```
 
 <img src="photos/accelaSource/accelaSourceDataTypeObjectMaps.png">
 
