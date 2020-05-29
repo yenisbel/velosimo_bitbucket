@@ -1,5 +1,3 @@
-# Creation Tenant
-
 ## Create Tenant
 
 • go to https://dev.velosimo.io/account/new

@@ -1,10 +1,4 @@
-# Integration Accela Google Drive
-
-## [Import Collection Accela Source](accelaSource)
-
-## [Import Collection Accela Storage](accelaStorage)
-
-## Import collections Google Drive
+## Google Drive
 
 ### Collections for App
 
@@ -110,7 +104,7 @@
 
 ### Connections
 
-- go to option **_Connectors Connections_** (https://dev.velosimo.io/connection) and check if under namespace **_Google Drive Storage_** exist the **_connection_** name, if it does not exist, it must be created with the values written in the next point, for this go to **_Connectors Connections New_** (https://dev.velosimo.io/connection/new)
+- go to option **_Connectors Connections_** (https://dev.velosimo.io/connection) and check if under namespace **_Google Drive Storage_** exist the **_connection_** name, this connection must be created, if it does not exist, it must be created with the values written in the next point, for this go to **_Connectors Connections New_** (https://dev.velosimo.io/connection/new)
 
 <img src="photos/accelaGoogleDrive/googleDriveConnection.png">
 
@@ -127,3 +121,5 @@
       - "namespace": "Google Drive Storage",
       - "name": "Google Drive"
 ```
+
+### Postman
