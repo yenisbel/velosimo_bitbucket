@@ -35,7 +35,8 @@
 
 - go to option **_ConnectorsConnectionsAccela Storage | ConnectionEdit_** and verify the current values with this:
 
-```"namespace": "Laserfiche Storage",
+```js
+"namespace": "Laserfiche Storage",
 "name": "Connection",
 "authorization_handler": false,
 "url": "http://{{api_url}}/laserfiche/api",
