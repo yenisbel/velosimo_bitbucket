@@ -8,7 +8,7 @@
 
 - go to **_Integrations Collections_** (https://dev.velosimo.io/collection) and verify under Title **_Laserfiche Storage_** if exist **_laserfiche storage_** name, if it does not exist, it must be created with the values written in the next point
 
-<img src="photos/accelaLaserfiche/collectionsLaserfiche.png">
+<img src="photos/createTenant/importCollectionForApp.png">
 
 - To verify the correct import of the collection go to the browser and paste the url of your new application, verifying that the image is similar to these
 
@@ -56,5 +56,3 @@
 "key": "api_url",
 "value": "connect.velosimo.com:3081"
 ```
-
-### Postman
