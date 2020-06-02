@@ -35,7 +35,7 @@
 
 - go to option **_ConnectorsConnectionsAccela Storage | ConnectionEdit_** and verify the current values with this:
 
-```js
+```
 "namespace": "Laserfiche Storage",
 "name": "Connection",
 "authorization_handler": false,

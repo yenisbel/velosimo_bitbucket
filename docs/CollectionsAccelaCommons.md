@@ -73,7 +73,9 @@
 
 ##### Code Algorithms Get Settings
 
-```Tenant.notify(message: "EDMS Running initial checks", type: :info)
+```ruby
+
+Tenant.notify(message: "EDMS Running initial checks", type: :info)
 begin
 response = {}
 data={}
