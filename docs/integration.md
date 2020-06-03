@@ -6,6 +6,7 @@ Depends what you need to use, your tenant will be setting up with the needed col
 # Algorithms
 
 Velosimo also has the Algorithms which are pieces of logic selected to execute and chain in order to process data. we store the output of the algorithm on a DataType record (or records if the output is an array).
+
 ## Algorithm notifications
 
 Inside the algorithm code, exits some notification points.

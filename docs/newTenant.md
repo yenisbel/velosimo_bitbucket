@@ -35,7 +35,7 @@
 
 ## Create New Record for Accela
 
-• go to DataIntegration Management App / Settings (https://dev.velosimo.io/integration_management_app~settings) and verify if Setting Data type under namespace exist
+• go to Data Integration Management App / Settings (https://dev.velosimo.io/integration_management_app~settings)and verify if Setting Data Type under namespace exist
 
 <img src="photos/integrationManagment/integrationDataTypeSettings.png">
 
