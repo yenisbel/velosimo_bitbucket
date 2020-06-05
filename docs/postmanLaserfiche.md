@@ -1,18 +1,8 @@
-## Overview
-
-In this section we will test the **`get_settings algorithm`** for <b>Laserfiche</b> storage using the <b>Postman</b> tool, also the requests can be executed in any browser.
-
-## Methods
-
-**`get_settings algorithm`** , is called by the access adapter when a submission is made, it receives as **`parameters`** the storages, the keys and the method.
-
-For this algorithm there are five **`methods`**, and for each one the algorithm returns a series of **`parameters`** necessary for the work of the adapter.
-
-> The following points show the different requests with the expected responses.
-
 ### Get File
 
 #### Sample Request
+
+GET/ Get File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
 
 `https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche&keys=["NULLISLAND","CAP","REC20-00000-00092"]&method=Get File`
 
@@ -51,13 +41,13 @@ For this algorithm there are five **`methods`**, and for each one the algorithm 
 }
 ```
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/eb5947e10923dee87507)
-
 ### Get Files
 
 #### Sample Request
 
-GET/ Get File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
+GET/ Get Files https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
+
+`https://dev.velosimo.io/app/dev-edms/settings?storage=laserfiche&keys=["velosimo","CAP","20CAP-00000-00002"]&method=Get Files`
 
 **`keys` ["NULLISLAND","CAP","REC20-00000-00092"]**
 
@@ -102,6 +92,8 @@ GET/ Get File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=l
 
 DELETE/ Delete File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
 
+`https://dev.velosimo.io/app/dev-edms/settings?storage=laserfiche&keys=["velosimo","CAP","20CAP-00000-00002"]&method=Delete File`
+
 **`keys`["NULLISLAND","CAP","REC20-00000-00092"]**
 
 #### Response
@@ -144,6 +136,8 @@ DELETE/ Delete File https://dev.velosimo.io/app/velosimoaccela-edms/settings?sto
 #### Request
 
 PUT/ Update File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
+
+`https://dev.velosimo.io/app/dev-edms/settings?storage=laserfiche&keys=["velosimo","CAP","20CAP-00000-00002"]&method=Update File`
 
 **`keys` ["NULLISLAND","CAP","REC20-00000-00092"]**
 
@@ -188,8 +182,9 @@ PUT/ Update File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storag
 
 POST/ Create File https://dev.velosimo.io/app/velosimoaccela-edms/settings?storage=laserfiche
 
+`https://dev.velosimo.io/app/dev-edms/settings?storage=laserfiche&keys=["velosimo","CAP","20CAP-00000-00002"]&method=Create File`
+
 **`keys` ["NULLISLAND","CAP","REC20-00000-00092"]**
-`
 
 #### Response
 
