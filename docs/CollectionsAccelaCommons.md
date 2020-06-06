@@ -9,6 +9,8 @@
 
 - go to **_Dashboard Authorization ClientsOAuth ClientsApplicationsDoRecordv1 | Accela Adapter_** Regist for create slug for adapter
 
+<img src="photos/accelaSource/accelaSourceRegistApplication.png">
+
 - Insert slug and OuthName for new tenant
 
 - Click on the register button and verify that the slug was inserted
@@ -71,7 +73,9 @@
 
 ##### Code Algorithms Get Settings
 
-```Tenant.notify(message: "EDMS Running initial checks", type: :info)
+```ruby
+
+Tenant.notify(message: "EDMS Running initial checks", type: :info)
 begin
 response = {}
 data={}

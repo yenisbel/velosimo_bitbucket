@@ -1,10 +1,8 @@
-## Google Drive
-
 ### Collections for App
 
 - Import collection Integration Management Collection for the new tenant (https://dev.velosimo.io/collection/pull_import)
 
-<img src="photos/createTenant/filesForApp.png">
+<img src="photos/createTenant/importCollectionForApp.png">
 
 - go to **_Integrations Collections_** (https://dev.velosimo.io/collection) and verify under Title **_Google Drive Storage_** if exist **_google drive storage_** name, if it does not exist, it must be created with the values written in the next point
 
@@ -121,5 +119,3 @@
       - "namespace": "Google Drive Storage",
       - "name": "Google Drive"
 ```
-
-### Postman
